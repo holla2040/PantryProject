@@ -1,0 +1,5 @@
+these are files needed to create a cordova phone app
+
+cordova requires ble, install cordova-plugin-ble-central
+    cordova plugin add cordova-plugin-ble-central
+
