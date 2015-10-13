@@ -1,0 +1,39 @@
+<template name="home">
+
+
+<script type="text/javascript">
+
+function signup(){
+	document.getElementById("signup").value="We are currently still in development. But thanks for your interest!";
+}
+	
+function trigger(){
+document.getElementById('alrt').innerHTML='<div class="alert alert-danger" role="alert">\<a href="#" class="alert-link">Warning! Food container is getting low @ location 38.4780791,-107.8803157</a>\</div>'; 
+setTimeout(function() {document.getElementById('alrt').innerHTML='';},5500);
+}
+</script>
+
+<div id='alrt' style="fontWeight = 'bold'"></div>
+<div class="white-back">
+
+<div class="jumbotron other-color">
+	<center>
+		<img src="images/Pantry-logo(1).png" height="172px" width="400px"/>
+		<p>Solving Food Insecurity for Colorado Communities<br></p>
+		
+    </center>
+</div>
+
+<center>
+<div class="well">
+				E-mail: &nbsp; &nbsp; <input type="text" name="email">				
+				&nbsp; &nbsp;&nbsp; &nbsp;Address: &nbsp;<input type="text" name="address">		
+				
+				&nbsp; &nbsp;&nbsp; &nbsp;<input id="signup" type="button" onclick="signup()" value="Sign Up">	
+				
+</div></center>
+
+</div>
+
+
+</template>

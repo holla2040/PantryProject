@@ -1,0 +1,59 @@
+
+.other-color{
+	background-image: url("images/leaf-background.jpg");}
+.white-back{
+    background-color: white;
+}
+body {
+    background-color: #E0E0E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scaleDataTable {
+    background-color: #ffffff;
+}
+
+.scaleDataTimestamp {
+    padding-right: 10px;
+    float: left;
+}
+
+.scaleDataMac {
+    padding-right: 10px;
+    float: left;
+}
+
+.scaleDataValue {
+    padding-right: 10px;
+    float: left;
+}
+
+.scaleDataGps {
+    padding-right: 10px;
+    float: left;
+}
+
+.scaleDataExtra {
+    padding-right: 10px;
+    float: left;
+}
+
+

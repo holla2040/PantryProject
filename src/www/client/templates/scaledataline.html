@@ -1,0 +1,10 @@
+<template name="scaledataline">
+<div class='scaleDataLine'>
+    <div class='scaleDataTimestamp'>Timestamp<br/>{{timestamp}}</div>
+    <div class='scaleDataMac'>Unit ID<br/>{{mac}}</div>
+    <div class='scaleDataValue'>Status<br/>{{value}}</div>
+    <div class='scaleDataGps'>GPS Location<br/><a href='https://www.google.com/maps/preview/@{{gps}},18z' target='_blank'>{{gps}}</a></div>
+    <div class='scaleDataExtra'><br/>{{extra}}</div>
+    <div style='clear:both'></div>
+</div>
+</template>
